@@ -1,0 +1,100 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+}
+.container{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first login{
+     margin-right: 500px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+.Pricing{
+    text-decoration: none;
+    margin-right: 10px;
+      font-style: bold;
+}
+.About{
+    text-decoration: none;
+    margin-left: 10px;
+      font-style: bold;
+    
+}
+.Docs{
+    text-decoration: none;
+      font-style: bold;
+    
+}
+.register{
+    text-decoration:none;
+    margin-right: 10px;
+      font-style: bold;
+    
+
+}
+.button1{
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.background{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+.second-layout{
+    position: absolute;
+    top: 205px;
+    left: 340px;
+    text-align: center;
+    color: white;
+}
+
+.second-layout p{
+    font-size: 20px;
+    text-align: center;
+}
+.button2{
+    background-color: white;
+    color: black;
+     width: 110px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.button3{
+    background-color: darkblue;
+    color: black;
+    margin-left: 15px;
+    width: 110px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.bottom{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+h3{
+    font-style: bold;
+}
