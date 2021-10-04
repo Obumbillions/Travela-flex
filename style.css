@@ -230,6 +230,9 @@ h3{
 }
 
 article, p{
-    font-size:10px;
+    font-size:20px;
+}
+.img1{
+    margin-left: 70px;
 }
 }
