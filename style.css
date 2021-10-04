@@ -108,6 +108,9 @@ h3{
     margin-right: 250px;
 }
 
+.img1{
+    margin-left: 70px;
+}
 
 @media only screen and (max-width: 660px) {
 .heading {
