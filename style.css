@@ -128,12 +128,12 @@ h3{
 
 .second-layout{
         position: absolute;
-        top: 132px;
-        left: 68px;
+        top: 152px;
+        left: 50px;
     }
 
 .second-layout p{
-        font-size: 6px;
+        font-size: 9px;
         text-align: center;
     }
 
@@ -141,7 +141,7 @@ h1{
     font-size: 15px;
     color: white;
    text-align: center;
-   margin-right: 30px;
+   margin-right: 5px;
     
 }
 
@@ -205,8 +205,8 @@ h1{
 }
 
 .chill{
-    width: 280px;
-    height: 150px;
+    width: 320px;
+    height: 200px;
 }
 
 .container{
@@ -216,10 +216,12 @@ h1{
 }
 
 .bottom{
+    
     margin-top: 45px;
-    display: flex;
+    flex-direction: column;
     justify-content: space-around; 
 }
+
 h3{
     font-size: 15px;
 }
