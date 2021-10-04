@@ -1,44 +1,45 @@
-body{
+html,body{
     font-family: sans-serif;
     width: 100%;
     margin-top: 30px;
     background-color: white;
 }
 .container{
-    max-width: 90%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-.first login{
-     margin-right: 500px;
+
+header{
+    font-size: 25px;
 }
-.heading{
+
+.heading {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 .Pricing{
     text-decoration: none;
-    margin-right: 10px;
       font-style: bold;
 }
 .About{
     text-decoration: none;
     margin-left: 10px;
-      font-style: bold;
-    
+    font-style: bold;
 }
 .Docs{
     text-decoration: none;
       font-style: bold;
+       margin-left: 10px;
     
 }
 .register{
     text-decoration:none;
     margin-right: 10px;
-      font-style: bold;
-    
-
+    font-style: bold;
 }
+
 .button1{
     background-color: darkblue;
     color: white;
@@ -47,32 +48,33 @@ body{
     padding-top: 10px;
     margin-left: 20px;
     border-radius: 7px;
+    font-size: 25px;
 }
 .background{
     position: relative;
     top: 30px;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     color: white;
 }
 .second-layout{
     position: absolute;
-    top: 205px;
-    left: 340px;
+    top: 185px;
+    left: 600px;
     text-align: center;
     color: white;
 }
 
 .second-layout p{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 .button2{
     background-color: white;
-    color: black;
+    color: blue;
      width: 110px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -81,7 +83,7 @@ h1{
 }
 .button3{
     background-color: darkblue;
-    color: black;
+    color: white;
     margin-left: 15px;
     width: 110px;
     padding-bottom: 10px;
@@ -97,4 +99,132 @@ h1{
 }
 h3{
     font-style: bold;
+}
+.chill{
+    width: 100%;
+    height: 50%;
+}
+.trio{
+    margin-right: 500px;
+}
+
+
+@media only screen and (max-width: 660px) {
+.heading {
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.trio{
+    
+    margin-right: 10px;
+}
+
+
+h3{
+    font-style: bolder;
+}
+
+.second-layout{
+        position: absolute;
+        top: 132px;
+        left: 68px;
+    }
+
+.second-layout p{
+        font-size: 6px;
+        text-align: center;
+    }
+
+h1{
+    font-size: 15px;
+    color: white;
+   text-align: center;
+   margin-right: 30px;
+    
+}
+
+
+.register{
+        text-decoration:none;
+        margin-left: 5px;
+        font-style: bold;
+      } 
+
+ .button1{
+    background-color: darkblue;
+    color: white;
+    width: 50px;
+    border-radius: 7px;
+    font-size:7px;
+}
+
+
+.button2{
+    background-color: white;
+    color: blue;
+     width: 100px;
+    border-radius: 7px;
+    
+}
+
+.button3{
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    border-radius: 7px;
+}
+
+.bottom{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.Pricing{
+        text-decoration: none;
+        margin-left: 10px;
+        font-style: bold;
+}
+.About{
+      text-decoration: none;
+      font-style: bold;    
+}
+
+.Docs{
+      text-decoration: none;
+      font-style: bold;
+}
+
+.background{
+    position: relative;
+    top: 30px;
+    width: 1px;
+    border-radius: 10px;
+}
+
+.chill{
+    width: 280px;
+    height: 150px;
+}
+
+.container{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around; 
+}
+h3{
+    font-size: 15px;
+}
+
+article, p{
+    font-size:10px;
+}
 }
