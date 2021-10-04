@@ -11,7 +11,7 @@ html,body{
 }
 
 header{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .heading {
@@ -48,7 +48,7 @@ header{
     padding-top: 10px;
     margin-left: 20px;
     border-radius: 7px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .background{
     position: relative;
@@ -57,19 +57,19 @@ header{
     border-radius: 10px;
 }
 h1{
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }
 .second-layout{
     position: absolute;
-    top: 185px;
-    left: 600px;
+    top: 155px;
+    left: 300px;
     text-align: center;
     color: white;
 }
 
 .second-layout p{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 .button2{
@@ -105,7 +105,7 @@ h3{
     height: 50%;
 }
 .trio{
-    margin-right: 500px;
+    margin-right: 250px;
 }
 
 
